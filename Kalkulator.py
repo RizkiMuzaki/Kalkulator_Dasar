@@ -24,6 +24,9 @@ def bagi(x, y):
     return x / y
 
 # Tampilan menu
+print(Fore.BLUE + "=======================================")
+print(Fore.BLUE + "            KALKULATOR SEDERHANA        ")
+print(Fore.BLUE + "=======================================")
 print("SELAMAT DATANG DI APLIKASI KALKULATOR DASAR RIZKI MUZAKI")
 def menu():
     print(Fore.YELLOW + "Pilih operasi:")
@@ -47,7 +50,8 @@ while True:
 
     # Keluar dari program
     if pilihan == '5':
-        print(Fore.GREEN + "Terima kasih telah menggunakan kalkulator kami." + Style.RESET_ALL)
+        print(Fore.GREEN + "Terima kasih telah menggunakan kalkulatornya" + Style.RESET_ALL)
+        print(Fore.GREEN + "by Rizki Muzaki" + Style.RESET_ALL)
         break
 
     num1 = float(input("Masukkan bilangan pertama: "))
